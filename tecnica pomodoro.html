@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" href="estilos.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Study lab</title>
+    <center>
+        <img src="img/logo.PNG"alt="Logo Study Lab" width="auto" height="auto">
+        <nav class="menu">
+        <ul> 
+        <li>
+  
+    
+          <a href="study lab.html">Inicio ▾</a>
+             
+            <ul class="submenu">
+                <li><a href="study lab.html#inicio">¿Qué es Study Lab?</a></li>
+                <li><a href="study lab.html#objetivo">Objetivo</a></li>
+                <li><a href="study lab.html#dirigido">¿A quién va dirigido?</a></li>
+            </ul>
+        </li>
+        </li>
+        <li>
+            <a href="metodos.html">Métodos de estudio ▾</a>
+            <ul class="submenu">
+                <li><a href="tecnica pomodoro.html">Pomodoro</a></li>
+                <li><a href="active recall.html">Active Recall</a></li>
+                <li><a href="tecnica feynman.html">Feynman</a></li>
+                <li><a href="cornell.html">Cornell</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="habitos de estudio.html">Hábitos de estudio ▾</a>
+            <ul class="submenu">
+                <li><a href="habitos de estudio.html#rutina">Rutina diaria</a></li>
+                <li><a href="habitos de estudio.html#descanso">Descanso activo</a></li>
+                <li><a href="habitos de estudio.html#objetivossmart">Objetivos SMART</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="apuntes y resumenes.html">Apuntes y resúmenes ▾</a>
+            <ul class="submenu">
+                <li><a href="apuntes y resumenes.html#resumenes">Resúmenes</a></li>
+                <li><a href="apuntes y resumenes.html#esquemas">Esquemas y mapas conceptuales</a></li>
+  
+            </ul>
+        </li>
+        <li>
+            <a href="recursos.html">Recursos ▾</a>
+            <ul class="submenu">
+                <li><a href="recursos.html#videos">Videos educativos</a></li>
+                <li><a href="recursos.html#apps">Apps de estudio</a></li>
+                <li><a href="recursos.html#links">Links útiles</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="Contacto.html">Contacto ▾</a>
+            <ul class="submenu">
+                <li><a href="contacto.html#email">Correo</a></li>
+                <li><a href="Contacto.html#redessociales">Redes sociales</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+</body>
+</center>   
+<style>
+  
+/* Logo con animación especial */
+img {
+  display: block;
+  margin: 40px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 0 20px 60px rgba(255, 105, 180, 0.4);
+  animation: glow 3s ease-in-out infinite alternate, bounceIn 1.5s ease-out 0.5s both;
+  transition: all 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.05) rotate(2deg);
+  box-shadow: 0 25px 70px rgba(255, 20, 147, 0.6);
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 20px 60px rgba(255, 105, 180, 0.4), 0 0 30px rgba(255, 105, 180, 0.3);
+  }
+  to {
+    box-shadow: 0 25px 70px rgba(255, 105, 180, 0.6), 0 0 50px rgba(255, 105, 180, 0.5);
+  }
+}
+
+@keyframes bounceIn {
+  0% { opacity: 0; transform: scale(0.3); }
+  50% { transform: scale(1.05); }
+  70% { transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+  h2 { font-size: 2rem; }
+  p, #dirigido ul li { 
+    font-size: 1rem; 
+    padding: 15px 20px; 
+  }
+  img { width: 90%; margin: 30px auto; }
+}
+
+</body>
+</html>
+}<
+    body {
+    font-family: Arial, sans-serif;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #b60365f1;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a {
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    background: #c5089c;
+}
+
+/* Submenús */
+.submenu {
+    display: none;
+    position: absolute;
+    background: #bd094e;
+    min-width: 230px;
+    z-index: 1000;
+}
+
+.submenu li {
+    display: block;
+}
+
+.menu ul li:hover .submenu {
+    display: block;
+}
+</style>
+</head>
+</html>
+    <div class="contenedor">
+       
+    <h1> Técnica Pomodoro</h1>
+
+
+    <p class="intro">
+        La Técnica Pomodoro es el <strong>"clásico de culto"</strong> de la productividad por una razón:
+        es absurdamente simple y funciona para engañar a tu cerebro para que deje de procrastinar.
+    </p>
+
+    <p>
+        Fue creada por <strong>Francesco Cirillo</strong> a finales de los 80, quien usaba un temporizador
+        de cocina en forma de tomate (<em>pomodoro</em> en italiano) para fragmentar su tiempo de estudio.
+    </p>
+
+    <h2>El Ciclo de 5 Pasos</h2>
+
+    <ol class="pasos">
+        <li><strong>Elige una sola tarea:</strong> Olvida el multitasking; elige una cosa y dale toda tu atención.</li>
+        <li><strong>Pon el temporizador:</strong> Configúralo por 25 minutos.</li>
+        <li><strong>Trabaja hasta que suene:</strong> Anota distracciones y vuelve al trabajo.</li>
+        <li><strong>Descanso breve:</strong> 5 minutos para estirarte o tomar agua.</li>
+        <li><strong>Gran descanso:</strong> Después de 4 pomodoros, descansa de 15 a 30 minutos.</li>
+    <h2> ¿Por qué funciona?</h2>
+
+    <ul class="beneficios">
+        <li>Combate la fatiga mental.</li>
+        <li>Vence la resistencia inicial.</li>
+        <li>Crea urgencia y enfoque.</li>
+    </ul>
+
+    <h2> Consejos</h2>
+
+    <p><strong>Regla de Oro:</strong> Un pomodoro es indivisible.</p>
+
+    <p><strong>Personaliza los tiempos:</strong> Prueba 50/10 si lo necesitas.</p>
+
+    <p><strong>Apps recomendadas:</strong> Forest, Focus To-Do, Pomofocus.</p>
+
+    <div class="nota">
+        <strong>Nota mental:</strong> Durante los descansos, evita el móvil.
+        Camina, estírate o haz un café.
+    </div>
+    <style>
+   /* Estilos generales */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    margin: 0;
+    padding: 40px;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    animation: aparecer 1.2s ease;
+}
+
+/* Animación de entrada */
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #e63946;
+    animation: pulso 2s infinite;
+}
+
+@keyframes pulso {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+h2 {
+    margin-top: 30px;
+    color: #1d3557;
+    position: relative;
+}
+
+/* Texto */
+p, li {
+    color: #070707;
+    line-height: 1.6;
+}
+
+/* Lista de pasos */
+.pasos li {
+    margin-bottom: 12px;
+    padding-left: 10px;
+    animation: deslizar 0.6s ease forwards;
+}
+
+@keyframes deslizar {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Beneficios */
+.beneficios li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.beneficios li::before {
+    content: "✔ ";
+    color: #2a9d8f;
+    font-weight: bold;
+}
+
+/* Nota final */
+.nota {
+    margin-top: 30px;
+    padding: 15px;
+    background: #ffe8cc;
+    border-left: 6px solid #f77f00;
+    border-radius: 8px;
+    animation: brillo 1.5s infinite alternate;
+}
+
+@keyframes brillo {
+    from { box-shadow: 0 0 5px #fcbf49; }
+    to { box-shadow: 0 0 15px #f77f00; }
+}
+
+</style>
+  
+<body>

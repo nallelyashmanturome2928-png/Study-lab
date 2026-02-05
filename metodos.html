@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Métodos de Estudio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <center>
+       <header>
+  <center>
+      <img src="img/logo.png" alt="Logo Study Lab" class="logo-animado">
+  
+        <nav class="menu">
+        <ul> 
+        <li>
+  
+    
+          <a href="study lab.html">Inicio ▾</a>
+             
+            <ul class="submenu">
+                <li><a href="study lab.html#inicio">¿Qué es Study Lab?</a></li>
+                <li><a href="study lab.html#objetivo">Objetivo</a></li>
+                <li><a href="study lab.html#dirigido">¿A quién va dirigido?</a></li>
+            </ul>
+        </li>
+        </li>
+        <li>
+            <a href="metodos.html">Métodos de estudio ▾</a>
+            <ul class="submenu">
+                <li><a href="tecnica pomodoro.html">Pomodoro</a></li>
+                <li><a href="active recall.html">Active Recall</a></li>
+                <li><a href="tecnica feynman.html">Feynman</a></li>
+                <li><a href="cornell.html">Cornell</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="habitos de estudio.html">Hábitos de estudio ▾</a>
+            <ul class="submenu">
+                <li><a href="habitos de estudio.html#rutina">Rutina diaria</a></li>
+                <li><a href="habitos de estudio.html#descanso">Descanso activo</a></li>
+                <li><a href="habitos de estudio.html#objetivossmart">Objetivos SMART</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="apuntes y resumenes.html">Apuntes y resúmenes ▾</a>
+            <ul class="submenu">
+                <li><a href="apuntes y resumenes.html#resumenes">Resúmenes</a></li>
+                <li><a href="apuntes y resumenes.html#esquemas">Esquemas y mapas conceptuales</a></li>
+  
+            </ul>
+        </li>
+        <li>
+            <a href="recursos.html">Recursos ▾</a>
+            <ul class="submenu">
+                <li><a href="recursos.html#videos">Videos educativos</a></li>
+                <li><a href="recursos.html#apps">Apps de estudio</a></li>
+                <li><a href="recursos.html#links">Links útiles</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="Contacto.html">Contacto ▾</a>
+            <ul class="submenu">
+                <li><a href="contacto.html#email">Correo</a></li>
+                <li><a href="Contacto.html#redessociales">Redes sociales</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+</body>
+</center> 
+</html>  
+<style>
+
+    body {
+    font-family: Arial, sans-serif;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #b60365f1;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a {
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    background: #c5089c;
+}
+
+/* Submenús */
+.submenu {
+    display: none;
+    position: absolute;
+    background: #bd094e;
+    min-width: 230px;
+    z-index: 1000;
+}
+
+.submenu li {
+    display: block;
+}
+
+.menu ul li:hover .submenu {
+    display: block;
+}
+/* Logo con animación especial */
+.logo-animado {
+  display: block;
+  margin: 40px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 0 20px 60px rgba(255, 105, 180, 0.4);
+  animation: glow 3s ease-in-out infinite alternate,
+             bounceIn 1.5s ease-out 0.5s both;
+  transition: all 0.4s ease;
+}
+
+.logo-animado:hover {
+  transform: scale(1.05) rotate(2deg);
+  box-shadow: 0 25px 70px rgba(255, 20, 147, 0.6);
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 20px 60px rgba(255, 105, 180, 0.4),
+                0 0 30px rgba(255, 105, 180, 0.3);
+  }
+  to {
+    box-shadow: 0 25px 70px rgba(255, 105, 180, 0.6),
+                0 0 50px rgba(255, 105, 180, 0.5);
+  }
+}
+
+@keyframes bounceIn {
+  0% { opacity: 0; transform: scale(0.3); }
+  50% { transform: scale(1.05); }
+  70% { transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+  .logo-animado {
+    width: 90%;
+    margin: 30px auto;
+  }
+        </style>
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', Arial, sans-serif;
+            background: linear-gradient(135deg, #ffd6e8, #fff0f7);
+            color: #4a2c3a;
+        }
+
+        .contenedor{
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 35px;
+            background: #ffffff;
+            border-radius: 22px;
+            box-shadow: 0 15px 35px rgba(233, 30, 99, 0.35);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1{
+            text-align: center;
+            color: #e91e63;
+            font-size: 2.4em;
+            margin-bottom: 25px;
+        }
+
+        h2{
+            color: #d81b60;
+            margin-top: 40px;
+            font-size: 1.7em;
+        }
+
+        p{
+            font-size: 1.05em;
+            line-height: 1.9;
+            margin-top: 15px;
+            text-align: justify;
+        }
+
+        .destacado{
+            margin-top: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #ffe0ee, #ffd1e8);
+            border-left: 7px solid #e91e63;
+            border-radius: 15px;
+            font-weight: 600;
+            color: #880e4f;
+        }
+
+        @keyframes fadeIn{
+            from{
+                opacity: 0;
+                transform: translateY(25px);
+            }
+            to{
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 600px){
+            .contenedor{
+                margin: 20px;
+                padding: 25px;
+            }
+
+            h1{
+                font-size: 1.9em;
+            }
+   
+
+    </style>
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <h1>¿Qué es un método de estudio?</h1>
+
+        <p>
+            Un método de estudio es un conjunto de estrategias y técnicas que se emplean para aprender de manera
+            organizada y eficaz. Su propósito principal es facilitar la comprensión, el análisis y la memorización
+            de la información, adaptándose a las necesidades y estilos de aprendizaje de cada estudiante.
+        </p>
+
+        <p>
+            Estos métodos no solo ayudan a entender mejor los contenidos, sino que también permiten administrar el
+            tiempo de estudio de forma inteligente. Al aplicar un método adecuado, el aprendizaje se vuelve más
+            activo, significativo y menos agotador.
+        </p>
+
+        <div class="destacado">
+            En esencia, los métodos de estudio funcionan como herramientas que optimizan el esfuerzo del estudiante,
+            ayudándole a aprender más en menos tiempo y con mayor claridad.
+        </div>
+
+        <h2>Importancia de contar con un buen método de estudio</h2>
+
+        <p>
+            Tener un método de estudio adecuado es fundamental para mejorar el rendimiento académico y aprovechar
+            al máximo el proceso de aprendizaje. Permite organizar la información de forma lógica y mejorar la
+            retención a largo plazo.
+        </p>
+
+        <p>
+            Además, estructurar correctamente las sesiones de estudio ayuda a prevenir el cansancio mental y visual,
+            distribuyendo el tiempo entre estudio y descanso, reduciendo el estrés académico.
+        </p>
+
+        <p>
+            En conclusión, un buen método de estudio no solo mejora los resultados académicos, sino que también
+            fortalece habilidades como la concentración, la disciplina y la organización, esenciales para la vida
+            diaria.
+        </p>
+    </div>
+<div class="contenedor-img">
+<img src="img/pomodoro.jpg" alt="Métodos de Estudio">
+<img src="img/active recall.jpg" alt="Métodos de Estudio">
+<img src="img/feynman.jpg" alt="Métodos de Estudio">
+<img src="img/cornell.jpg" alt="Métodos de Estudio">
+</div>
+<style>
+.contenedor-img{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+
+.contenedor-img img{
+    width: 230px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(233, 30, 99, 0.35);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Efecto hover */
+.contenedor-img img:hover {
+    transform: scale(1.08) translateY(-8px);
+    box-shadow: 0 25px 55px rgba(233, 30, 99, 0.55);
+}
+</style>
+</body>
+</html>

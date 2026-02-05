@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hábitos de estudio</title>
+
+  <center>
+        <img src="img/logo.PNG"alt="Logo Study Lab" width="auto" height="auto">
+        <nav class="menu">
+        <ul> 
+        <li>
+  
+    
+          <a href="study lab.html">Inicio ▾</a>
+             
+            <ul class="submenu">
+                <li><a href="study lab.html#inicio">¿Qué es Study Lab?</a></li>
+                <li><a href="study lab.html#objetivo">Objetivo</a></li>
+                <li><a href="study lab.html#dirigido">¿A quién va dirigido?</a></li>
+            </ul>
+        </li>
+        </li>
+        <li>
+            <a href="metodos.html">Métodos de estudio ▾</a>
+            <ul class="submenu">
+                <li><a href="tecnica pomodoro.html">Pomodoro</a></li>
+                <li><a href="active recall.html">Active Recall</a></li>
+                <li><a href="tecnica feynman.html">Feynman</a></li>
+                <li><a href="cornell.html">Cornell</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="habitos de estudio.html">Hábitos de estudio ▾</a>
+            <ul class="submenu">
+                <li><a href="habitos de estudio.html#rutina">Rutina diaria</a></li>
+                <li><a href="habitos de estudio.html#descanso">Descanso activo</a></li>
+                <li><a href="habitos de estudio.html#objetivossmart">Objetivos SMART</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="apuntes y resumenes.html">Apuntes y resúmenes ▾</a>
+            <ul class="submenu">
+                <li><a href="apuntes y resumenes.html#resumenes">Resúmenes</a></li>
+                <li><a href="apuntes y resumenes.html#esquemas">Esquemas y mapas conceptuales</a></li>
+  
+            </ul>
+        </li>
+        <li>
+            <a href="recursos.html">Recursos ▾</a>
+            <ul class="submenu">
+                <li><a href="recursos.html#videos">Videos educativos</a></li>
+                <li><a href="recursos.html#apps">Apps de estudio</a></li>
+                <li><a href="recursos.html#links">Links útiles</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="Contacto.html">Contacto ▾</a>
+            <ul class="submenu">
+                <li><a href="Contacto.html">Correo</a></li>
+                <li><a href="Contacto.html#redessociales">Redes sociales</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+  
+
+
+</body>
+</center>   
+<style>
+    body {
+    font-family: Arial, sans-serif;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #b60365f1;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a {
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    background: #c5089c;
+}
+
+/* Submenús */
+.submenu {
+    display: none;
+    position: absolute;
+    background: #bd094e;
+    min-width: 230px;
+    z-index: 1000;
+}
+
+.submenu li {
+    display: block;
+}
+
+.menu ul li:hover .submenu {
+    display: block;
+}
+
+/* Logo con animación especial */
+img {
+  display: block;
+  margin: 40px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 0 20px 60px rgba(255, 105, 180, 0.4);
+  animation: glow 3s ease-in-out infinite alternate, bounceIn 1.5s ease-out 0.5s both;
+  transition: all 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.05) rotate(2deg);
+  box-shadow: 0 25px 70px rgba(255, 20, 147, 0.6);
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 20px 60px rgba(255, 105, 180, 0.4), 0 0 30px rgba(255, 105, 180, 0.3);
+  }
+  to {
+    box-shadow: 0 25px 70px rgba(255, 105, 180, 0.6), 0 0 50px rgba(255, 105, 180, 0.5);
+  }
+}
+
+@keyframes bounceIn {
+  0% { opacity: 0; transform: scale(0.3); }
+  50% { transform: scale(1.05); }
+  70% { transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+  h2 { font-size: 2rem; }
+  p, #dirigido ul li { 
+    font-size: 1rem; 
+    padding: 15px 20px; 
+  }
+  img { width: 90%; margin: 30px auto; }
+}
+
+
+        </style>
+</head>
+</html>
+        <body>
+
+</body>
+</html>
+<h1>Hábitos de estudio</h1>
+<p>Los hábitos de estudio son el conjunto de rutinas, métodos y estrategias aplicadas con constancia para facilitar la asimilación, organización y retención de conocimientos. Estas prácticas mejoran la eficiencia en el aprendizaje, optimizan el tiempo y elevan el rendimiento académico al evitar distracciones y fomentar la disciplina.
+
+
+<div id="rutina">
+<style>
+    /* Estilos generales*/
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffe6f0;
+      text-align: center;
+      animation: fondoSuave 6s infinite alternate;
+    }
+
+    h1 {
+      color: #ce1358;
+      animation: aparecer 1.2s ease-out;
+    }
+
+    p {
+      font-weight: bold;
+      color: #570943;
+      animation: aparecer 1.6s ease-out;
+    }
+
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 65%;
+      background-color: #fff0f6;
+      animation: subir 1s ease-out;
+    }
+
+    th, td {
+      border: 2px solid #f06292;
+      padding: 10px;
+      transition: transform 0.2s ease, background-color 0.3s ease;
+    }
+
+    th {
+      background-color: #f48fb1;
+      color: #880e4f;
+    }
+
+    td {
+      background-color: #fce4ec;
+      color: #880e4f;
+    }
+
+    /* Hover animado */
+    tr:hover td, tr:hover th {
+      background-color: #f8bbd0;
+      transform: scale(1.02);
+    }
+
+    /* Fila seleccionada */
+    .fila-activa td, .fila-activa th {
+      background-color: #f8bbd0 !important;
+      animation: latido 0.6s ease;
+    }
+
+    /* ===== Animaciones ===== */
+    @keyframes aparecer {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes subir {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes latido {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes fondoSuave {
+      from { background-color: #ffe6f0; }
+      to { background-color: #ffd6e7; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Rutina de estudio</h1>
+  <p>Materias principales</p>
+
+  <table>
+    <tr>
+      <th>Hora</th>
+      <th>Materia</th>
+    </tr>
+
+    <tr onclick="resaltar(this)">
+      <th>07:00 - 08:00</th>
+      <td>Matemáticas</td>
+    </tr>
+
+    <tr onclick="resaltar(this)">
+      <th>08:00 - 09:00</th>
+      <td>Lengua y Literatura</td>
+    </tr>
+
+    <tr onclick="resaltar(this)">
+      <th>16:00 - 17:00</th>
+      <td>Física</td>
+    </tr>
+
+    <tr onclick="resaltar(this)">
+      <th>17:00 - 18:00</th>
+      <td>Biología</td>
+    </tr>
+
+    <tr onclick="resaltar(this)">
+      <th>18:30 - 19:30</th>
+      <td>Química</td>
+    </tr>
+  </table>
+
+  <script>
+    function resaltar(fila) {
+      let filas = document.querySelectorAll("tr");
+      filas.forEach(f => f.classList.remove("fila-activa"));
+      fila.classList.add("fila-activa");
+    }
+  </script>
+  <div id="descanso"></div>
+<!DOCTYPE html>
+<style>
+:root {
+  --rosa-claro: #F8D7DA;
+  --rosa-medio: #E91E63;
+  --rosa-fuerte: #C2185B;
+  --rosa-suave: #FCE4EC;
+  --rosa-gradiente: linear-gradient(135deg, #F8D7DA 0%, #E91E63 50%, #C2185B 100%);
+  --blanco: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--rosa-suave);
+  color: var(--rosa-fuerte);
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: var(--blanco);
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(233, 30, 99, 0.1);
+  overflow: hidden;
+  animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.header {
+  background: pink;
+  padding: 40px;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+/* VIDEO */
+.video-section {
+  text-align: center;
+  padding: 30px;
+}
+
+.video-link {
+  display: inline-block;
+  background: pink;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.video-link:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(233, 30, 99, 0.4);
+}
+
+/* CONTENIDO */
+.content-section {
+  padding: 40px;
+}
+
+.section {
+  margin-bottom: 40px;
+  animation: slideIn 0.8s ease forwards;
+  opacity: 0;
+}
+
+.section:nth-child(1) { animation-delay: 0.1s; }
+.section:nth-child(2) { animation-delay: 0.2s; }
+.section:nth-child(3) { animation-delay: 0.3s; }
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.section h2 {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.section h2::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: var(--rosa-medio);
+  display: block;
+  margin-top: 5px;
+  border-radius: 2px;
+}
+
+/* IDEAS */
+.ideas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.idea-card {
+  background: var(--rosa-claro);
+  padding: 25px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.idea-card:hover {
+  transform: translateY(-6px);
+}
+
+.idea-card h3 {
+  margin-bottom: 10px;
+}
+
+.idea-card ul {
+  padding-left: 20px;
+}
+
+/* BENEFICIOS */
+.benefits-list {
+  list-style: none;
+}
+
+.benefits-list li {
+  background: rgba(248, 215, 218, 0.4);
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+</style>
+</head>
+
+<body>
+  <div id="descanso"></div>
+<div class="container">
+
+  <header class="header">
+    <h1>Descanso Activo en el Estudio</h1>
+    <p>Recarga tu energía y mejora tu concentración</p>
+  </header>
+
+  <section class="video-section">
+    <p>Video explicativo:</p>
+    <a class="video-link" href="https://www.youtube.com/watch?v=UJzqBrlYX3E&t=21" target="_blank">
+      Ver video
+    </a>
+  </section>
+
+  <div class="content-section">
+
+    <div class="section">
+      <h2>¿Qué es el descanso activo?</h2>
+      <p>Son pausas breves de 5 a 10 minutos donde realizas movimientos suaves o actividades distintas al estudio para recuperar energía mental y física.</p>
+    </div>
+
+    <div class="section">
+      <h2>Ideas de descanso activo</h2>
+      <div class="ideas-grid">
+        <div class="idea-card">
+          <h3>Movimiento</h3>
+          <ul>
+            <li>Caminar</li>
+            <li>Estiramientos</li>
+            <li>Movilidad articular</li>
+          </ul>
+        </div>
+
+        <div class="idea-card">
+          <h3>Cambio de actividad</h3>
+          <ul>
+            <li>Ordenar el escritorio</li>
+            <li>Regar plantas</li>
+            <li>Cuidar mascotas</li>
+          </ul>
+        </div>
+
+        <div class="idea-card">
+          <h3>Cuidado personal</h3>
+          <ul>
+            <li>Tomar agua</li>
+            <li>Comer fruta</li>
+            <li>Respirar aire fresco</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Beneficios</h2>
+      <ul class="benefits-list">
+        <li>Mejora la concentración</li>
+        <li>Reduce el estrés</li>
+        <li>Previene la fatiga mental</li>
+        <li>Evita el uso excesivo de pantallas</li>
+      </ul>
+    </div><!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Descanso Activo</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: linear-gradient(135deg, #ffe6f0, #fff0f6);
+      padding: 30px;
+      color: #4a2c3a;
+    }
+
+    .contenedor {
+      max-width: 900px;
+      margin: auto;
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(255, 105, 180, 0.25);
+    }
+
+    h1 {
+      text-align: center;
+      color: #2b0417;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #db1471;
+      margin-top: 25px;
+    }
+
+    p {
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    .li{
+      margin-bottom: 10px;
+    background: #b60365f1;
+      background:pink;
+      padding: 10px 15px;
+      border-radius: 12px;
+    }
+
+    .destacado {
+      background: #da1e6f;
+      padding: 15px;
+      border-radius: 15px;
+      margin-top: 20px;
+      font-weight: bold;
+      color: #753856;
+    }
+  </style>
+</head>
+<body>
+
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Objetivos SMART para Estudiantes</title>
+
+<style>
+:root {
+  --rosa-claro: #F8D7DA;
+  --rosa-medio: #c97591;
+  --rosa-fuerte: #C2185B;
+  --rosa-suave: #FCE4EC;
+  --rosa-gradiente: linear-gradient(135deg, #F8D7DA 0%, #E91E63 50%, #C2185B 100%);
+  --blanco: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--rosa-suave);
+  color: var(--rosa-fuerte);
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: var(--blanco);
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(233, 30, 99, 0.1);
+  overflow: hidden;
+  animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.header {
+  background: var(--rosa-gradiente);
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+.header h1 {
+  font-size: 2.4em;
+  margin-bottom: 10px;
+}
+
+.video-section {
+  text-align: center;
+  padding: 30px;
+}
+
+.video-link {
+  display: inline-block;
+  background: var(--rosa-gradiente);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.video-link:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(233, 30, 99, 0.4);
+}
+
+.content-section {
+  padding: 40px;
+}
+
+.section {
+  margin-bottom: 40px;
+  animation: slideIn 0.8s ease forwards;
+  opacity: 0;
+}
+
+.section:nth-child(1) { animation-delay: 0.1s; }
+.section:nth-child(2) { animation-delay: 0.2s; }
+.section:nth-child(3) { animation-delay: 0.3s; }
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.section h2 {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.section h2::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: var(--rosa-medio);
+  display: block;
+  margin-top: 5px;
+  border-radius: 2px;
+}
+
+.ideas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.idea-card {
+  background: var(--rosa-claro);
+  padding: 25px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.idea-card:hover {
+  transform: translateY(-6px);
+}
+
+.idea-card h3 {
+  margin-bottom: 10px;
+}
+
+.idea-card p {
+  font-size: 0.95em;
+}
+
+.benefits-list {
+  list-style: none;
+}
+
+.benefits-list li {
+  background: rgba(248, 215, 218, 0.4);
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+</style>
+</head>
+<div id="objetivossmart"></div>
+<body>
+<div class="container">
+
+  <header class="header">
+    <h1>Objetivos SMART para Estudiantes</h1>
+    <p>Metas claras, realistas y con resultados</p>
+  </header>
+
+  <section class="video-section">
+    <p>Este video explica cómo aplicar el método SMART:</p>
+    <a class="video-link" href="https://www.youtube.com/watch?v=vlIlQ2OtI-I" target="_blank">
+      Ver video (1 min)
+    </a>
+    <p style="margin-top:10px; font-size:0.9em;">Valeria Digital · YouTube · 15 ene 2024</p>
+  </section>
+
+  <div class="content-section">
+
+    <div class="section">
+      <h2>¿Qué son los objetivos SMART?</h2>
+      <p>
+        Los objetivos SMART son metas <strong>Específicas, Medibles, Alcanzables, Relevantes y con Tiempo definido</strong>.
+        Ayudan a mejorar el rendimiento académico y personal, evitando metas vagas como “estudiar más”.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Ejemplos de objetivos SMART</h2>
+      <div class="ideas-grid">
+
+        <div class="idea-card">
+          <h3>Académico (General)</h3>
+          <p>Subir mi promedio en matemáticas de 70 a 85 para el final del semestre, estudiando 30 minutos extra cada día.</p>
+        </div>
+
+        <div class="idea-card">
+          <h3>Gestión de tareas</h3>
+          <p>Entregar todos los ensayos de historia al menos 24 horas antes de la fecha límite durante el primer trimestre.</p>
+        </div>
+
+        <div class="idea-card">
+          <h3>Idiomas / Habilidades</h3>
+          <p>Aprender 50 palabras nuevas en inglés cada semana usando tarjetas de memoria para lograr la certificación B2 en julio.</p>
+        </div>
+
+        <div class="idea-card">
+          <h3>Lectura</h3>
+          <p>Leer un libro relacionado con mi carrera durante el próximo mes, dedicando 20 minutos diarios.</p>
+        </div>
+
+        <div class="idea-card">
+          <h3>Participación</h3>
+          <p>Participar en clase de Historia al menos dos veces por semana levantando la mano, начиная este lunes.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Componentes clave del método SMART</h2>
+      <ul class="benefits-list">
+        <li><strong>Específico:</strong> Claro y concreto (qué, cómo, dónde).</li>
+        <li><strong>Medible:</strong> Permite evaluar el progreso.</li>
+        <li><strong>Alcanzable:</strong> Realista y posible.</li>
+        <li><strong>Relevante:</strong> Importante para tu desarrollo.</li>
+        <li><strong>Tiempo:</strong> Con una fecha límite definida.</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

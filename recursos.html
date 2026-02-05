@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recursos</title>
+</head>
+<body>
+   <center>
+    <div id="logo"></div>
+       <img src="img/logo.png" alt="Logo Study Lab" class="logo-animado">
+
+        <body>
+    <header></style>
+        <nav class="menu">
+        <ul> 
+        <li>    
+          <a href="study lab.html">Inicio ▾</a>
+             
+            <ul class="submenu">
+                <li><a href="study lab.html#inicio">¿Qué es Study Lab?</a></li>
+                <li><a href="study lab.html#objetivo">Objetivo</a></li>
+                <li><a href="study lab.html#dirigido">¿A quién va dirigido?</a></li>
+            </ul>
+        </li>
+        </li>
+        <li>
+            <a href="metodos.html">Métodos de estudio ▾</a>
+            <ul class="submenu">
+                <li><a href="tecnica pomodoro.html">Pomodoro</a></li>
+                <li><a href="active recall.html">Active Recall</a></li>
+                <li><a href="tecnica feynman.html">Feynman</a></li>
+                <li><a href="cornell.html">Cornell</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="habitos de estudio.html">Hábitos de estudio ▾</a>
+            <ul class="submenu">
+                <li><a href="habitos de estudio.html#rutina">Rutina diaria</a></li>
+                <li><a href="habitos de estudio.html#descanso">Descanso activo</a></li>
+                <li><a href="habitos de estudio.html#objetivossmart">Objetivos SMART</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="apuntes y resumenes.html">Apuntes y resúmenes ▾</a>
+            <ul class="submenu">
+                <li><a href="apuntes y resumenes.html#resumenes">Resúmenes</a></li>
+                <li><a href="apuntes y resumenes.html#esquemas">Esquemas y mapas conceptuales</a></li>
+  
+            </ul>
+        </li>
+        <li>
+            <a href="recursos.html">Recursos ▾</a>
+            <ul class="submenu">
+                <li><a href="recursos.html#videos">Videos educativos</a></li>
+                <li><a href="recursos.html#apps">Apps de estudio</a></li>
+                <li><a href="recursos.html#links">Links útiles</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="Contacto.html">Contacto ▾</a>
+            <ul class="submenu">
+                <li><a href="cornell.html#email">Correo</a></li>
+                <li><a href="Contacto.html#redessociales">Redes sociales</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+</body>
+</center>   
+<style>
+    body {
+    font-family: Arial, sans-serif;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #b60365f1;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a {
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    background: #c5089c;
+}
+
+/* Submenús */
+.submenu {
+    display: none;
+    position: absolute;
+    background: #bd094e;
+    min-width: 230px;
+    z-index: 1000;
+}
+
+.submenu li {
+    display: block;
+}
+
+.menu ul li:hover .submenu {
+    display: block;
+}
+/* Logo con animación especial */
+.logo-animado {
+  display: block;
+  margin: 40px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 0 20px 60px rgba(255, 105, 180, 0.4);
+  animation: glow 3s ease-in-out infinite alternate,
+             bounceIn 1.5s ease-out 0.5s both;
+  transition: all 0.4s ease;
+}
+
+.logo-animado:hover {
+  transform: scale(1.05) rotate(2deg);
+  box-shadow: 0 25px 70px rgba(255, 20, 147, 0.6);
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 20px 60px rgba(255, 105, 180, 0.4),
+                0 0 30px rgba(255, 105, 180, 0.3);
+  }
+  to {
+    box-shadow: 0 25px 70px rgba(255, 105, 180, 0.6),
+                0 0 50px rgba(255, 105, 180, 0.5);
+  }
+}
+
+@keyframes bounceIn {
+  0% { opacity: 0; transform: scale(0.3); }
+  50% { transform: scale(1.05); }
+  70% { transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+  .logo-animado {
+    width: 90%;
+    margin: 30px auto;
+  }
+}
+
+</style>
+
+  <style>
+    /* ===== ESTILOS GENERALES ===== */
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background: linear-gradient(135deg, #ffe4ec, #fff0f5);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+
+    section {
+      width: 100%;
+      max-width: 1000px;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(255, 105, 180, 0.25);
+      text-align: center;
+    }
+
+    h1 {
+      color: #d63384;
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #e91e63;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #8a4f6a;
+      line-height: 1.7;
+    }
+
+    /* ===== VIDEOS ===== */
+    .videos-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+
+    iframe {
+      width: 100%;
+      height: 200px;
+      border-radius: 15px;
+      border: none;
+    }
+
+    /* ===== APPS ===== */
+    .apps ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .apps li {
+      width: 100%;
+      max-width: 380px;
+    }
+
+    .apps a {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 20px;
+      background: linear-gradient(135deg, #ff80ab, #f48fb1);
+      color: #ffffff;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .apps a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(233, 30, 99, 0.4);
+    }
+
+    .apps img {
+      width: 38px;
+      height: 38px;
+      background: #ffffff;
+      border-radius: 50%;
+      padding: 6px;
+      object-fit: contain;
+    }
+
+    /* ===== LINKS ÚTILES ===== */
+    .links-utiles ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .links-utiles a {
+      display: block;
+      padding: 12px;
+      background: #f6e8ee;
+      color: #5f4a52;
+      border-radius: 15px;
+      text-decoration: none;
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    .links-utiles a:hover {
+      background: #f0d6df;
+      transform: translateX(6px);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <!-- INTRO -->
+    <section>
+      <h1>Recursos</h1>
+      <p>
+        En esta sección comparto enlaces, apps educativas y videos educativos
+        que utilizo para aprender de forma dinámica y reforzar mis conocimientos.
+      </p>
+    </section>
+<div id="videos"></div>
+    <!-- VIDEOS -->
+    <section>
+      <h2>Videos educativos</h2>
+      <div class="videos-grid">
+        <iframe src="https://www.youtube.com/embed/aYkOsFHCqPM" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/-k4tnmXRFno" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/_X-BTbwj3xU" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/-q1C4NY1oVc" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/9Oljha_Syv8" allowfullscreen></iframe>
+      </div>
+    </section>
+<div id="apps"></div>
+    <!-- APPS -->
+    <section class="apps">
+      <h2>Apps educativas</h2>
+      <ul>
+        <li>
+          <a href="https://www.khanacademy.org" target="_blank">
+            <img src="img/khan.png" alt="Khan Academy"> Khan Academy
+          </a>
+        </li>
+
+        <li>
+          <a href="https://kahoot.com" target="_blank">
+            <img src="img/kahoot.png" alt="Kahoot"> Kahoot
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.photomath.com" target="_blank">
+            <img src="img/photomath.png" alt="Photomath"> Photomath
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.duolingo.com" target="_blank">
+            <img src="img/duolingo.png" alt="Duolingo"> Duolingo
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.canva.com" target="_blank">
+            <img src="img/canva.png" alt="Canva"> Canva
+          </a>
+        </li>
+      </ul>
+    </section>
+<div id="links"></div>
+    <!-- LINKS -->
+    <section class="links-utiles">
+      <h2>Links útiles</h2>
+      <ul>
+        <li><a href="https://www.theastudy.com/" target="_blank">Thea</a></li>
+        <li><a href="https://concepto.de/" target="_blank">Concepto</a></li>
+        <li><a href="https://human.biodigital.com/" target="_blank">BioDigital Human</a></li>
+        <li><a href="https://scholar.google.com/" target="_blank">Google Académico</a></li>
+        <li><a href="https://www.thefablecottage.com/" target="_blank">The Fable Cottage</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+    
+</body>
+</html>
